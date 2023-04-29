@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="select_fn()">Confirm Popup</button>
+<p id="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe suscipit magni mollitia reprehenderit atque blanditiis, cumque iusto consequuntur facere quas corrupti exercitationem laborum hic fuga ducimus cupiditate consequatur temporibus autem!</p>
+
+    <script>
+        function select_fn(){
+// functuin create kryu select_fun()
+
+//  confirm ma ok and cancel option aave
+
+            var abc= document.getElementById("test");
+
+            if(confirm("click any button") == false){
+                // true thay means ok pr click kre to
+
+                abc.style.backgroundColor = "Skyblue";
+            }else{
+                
+                // cancle pr click kre to
+                abc.style.backgroundColor = "Purple";
+             } 
+        }
+    </script>
+</body>
+</html>

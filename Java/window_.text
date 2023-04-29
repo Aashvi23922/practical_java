@@ -1,0 +1,14 @@
+Window object:
+
+- alert
+
+- confirm
+
+- prompt
+
+- open
+
+- close 
+
+
+       alert(),confirm() and prompt() also called as popup boxes.
